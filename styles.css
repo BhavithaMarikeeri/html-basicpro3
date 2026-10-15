@@ -1,0 +1,77 @@
+/* Element selector */
+h2 {
+    color: darkblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background-color: coral;
+}
+
+/* Element selector */
+p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Descendant selector */
+.container p {
+    margin: 15px;
+}
+
+/* ID selector */
+#special {
+    color: crimson;
+    font-weight: bold;
+    border-left: 4px solid crimson;
+    padding-left: 8px;
+}
+
+/* Class selector */
+.highlight {
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Element selector */
+span {
+    color: darkmagenta;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+time {
+    color: darkorange;
+    font-style: italic;
+}
+
+/* Image styling */
+img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border: 3px solid teal;
+    border-radius: 12px;
+}
+
+/* Attribute selector */
+a[href] {
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: crimson;
+    text-decoration: none;
+}
